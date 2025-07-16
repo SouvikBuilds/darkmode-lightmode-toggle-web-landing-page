@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 10px; */
+    margin: 40px;
+    /* border-bottom: 1px solid #b5b5b5; */
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.icon-section img {
+    height: 40px;
+    width: 40px;
+}
+
+.icon-section button {
+    padding: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-sections {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.list li {
+    list-style: none;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.list li a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+}
+
+#girl-img {
+    height: 700px;
+    width: 500px;
+    background: url(pattern.png);
+    /* margin-bottom: 40px; */
+    margin-top: -50px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.details h2 {
+    font-size: 60px;
+}
+
+#download-cv {
+    padding: 10px 25px;
+    cursor: pointer;
+    background: #000;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+#download-cv:hover {
+    padding: 10px 25px;
+    cursor: pointer;
+    background: #3b3b3b;
+    transition: 0.3s all ease;
+    color: white;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f2f2f2;
+}
+
+.dark-mode .navbar .logo img {
+    filter: brightness(0) invert(1);
+}
+
+.dark-mode .details .contact-links img {
+    filter: brightness(0) invert(1);
+}
+
+.dark-mode .navbar a {
+    color: #f2f2f2;
+}
+
+.dark-mode .list li a:hover {
+    color: orange;
+}
+
+.dark-mode #download-cv {
+    background: red;
+    color: white;
+}
