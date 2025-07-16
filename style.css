@@ -73,7 +73,7 @@ body {
 #girl-img {
     height: 700px;
     width: 500px;
-    background: url(portfolio_site_img/pattern.png);
+    background: url(pattern.png);
     /* margin-bottom: 40px; */
     margin-top: -50px;
 }
